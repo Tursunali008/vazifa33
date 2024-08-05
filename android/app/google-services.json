@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475531314503",
+    "project_id": "bank-app-234fd",
+    "storage_bucket": "bank-app-234fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475531314503:android:1c1840cda4779a31b93862",
+        "android_client_info": {
+          "package_name": "com.example.vazifa33"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDllr22cG-SRKPcPgjzrcZm9MK_zkkD7jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
