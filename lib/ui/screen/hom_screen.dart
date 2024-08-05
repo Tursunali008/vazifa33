@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:vazifa33/logic/bloc/cart_bloc.dart';
 import 'package:vazifa33/services/auth_servise.dart';
 import 'package:vazifa33/ui/widget/cart_add.dart';
-import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -90,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     borderRadius: BorderRadius.circular(18),
                                     image: const DecorationImage(
                                       image: NetworkImage(
-                                          "https://kartinki.pics/uploads/posts/2021-07/1626159513_16-kartinkin-com-p-bank-fon-krasivo-16.jpg"),
+                                          "https://i.pinimg.com/originals/a0/72/92/a0729232de71cbe5a5b4e5695079af1d.jpg"),
                                       fit: BoxFit.cover,
                                     ),
                                   ),
@@ -187,31 +186,15 @@ class _HomeScreenState extends State<HomeScreen> {
           return const SizedBox();
         },
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      floatingActionButton: ZoomTapAnimation(
-        onTap: () {
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.blue,
+        onPressed: () {
           showDialog(
             context: context,
             builder: (context) => const CardInfoDialog(),
           );
         },
-        child: Container(
-          width: 300,
-          height: 50,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(12),
-            color: const Color.fromARGB(244, 33, 54, 215),
-          ),
-          child: const Center(
-            child: Text(
-              "Add Cart",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 16,
-              ),
-            ),
-          ),
-        ),
+        child: const Icon(Icons.add),
       ),
     );
   }
