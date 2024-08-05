@@ -80,9 +80,9 @@ class _SignupScreenState extends State<SignupScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(36, 33, 149, 243),
+      backgroundColor: Colors.blue,
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(1, 33, 149, 243),
+        backgroundColor: Colors.blue,
         leading: IconButton(
           onPressed: () {
             Navigator.pushReplacement(context, MaterialPageRoute(
