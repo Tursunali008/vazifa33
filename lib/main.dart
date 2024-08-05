@@ -6,7 +6,7 @@ import 'package:vazifa33/data/repostory/cart_repostory.dart';
 import 'package:vazifa33/firebase_options.dart';
 import 'package:vazifa33/logic/bloc/cart_bloc.dart';
 import 'package:vazifa33/services/cart_service.dart';
-import 'package:vazifa33/ui/screen/hom_screen.dart';
+import 'package:vazifa33/ui/screen/home_screen.dart';
 import 'package:vazifa33/ui/screen/login_screen.dart';
 
 void main() async {

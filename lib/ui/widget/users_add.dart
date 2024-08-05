@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vazifa33/services/user_service.dart';
-import 'package:vazifa33/ui/screen/hom_screen.dart';
+import 'package:vazifa33/ui/screen/home_screen.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class UserInfoScreen extends StatefulWidget {
